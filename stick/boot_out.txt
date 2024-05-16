@@ -3,3 +3,6 @@ Board ID:raspberry_pi_pico
 UID:E661385283688025
 boot.py output:
 + Enabled JoystickXL 0.4.1 with 3 axes, 6 buttons and 4 hats for a total of 6 report bytes.
+Traceback (most recent call last):
+  File "boot.py", line 6, in <module>
+AttributeError: 'module' object has no attribute 'device'
